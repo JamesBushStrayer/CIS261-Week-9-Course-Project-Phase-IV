@@ -189,5 +189,5 @@ if __name__ == "__main__":
         taxrate = GetTaxRate()
         EmpDetail = fromdate + "|" + todate + "|" + empname + "|" + str(hours) + "|" + str(hourlyrate) + "|" + str(taxrate) + "\n"
         EmpFile.write(EmpDetail)
-      Empfile.close()
+      EmpFile.close()
     printinfo(DetailsPrinted)
